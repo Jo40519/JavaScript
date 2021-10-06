@@ -7,5 +7,3 @@ if (idade < 16){
     else if(idade >=18){
         console.log('Voto obrigatório')
 }
-
-aaaaa
