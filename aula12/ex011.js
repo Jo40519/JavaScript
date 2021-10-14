@@ -1,10 +1,10 @@
-var idade = 68
-console.log(`Você tem ${idade} anos, por tanto o`)
+var idade = 21
+console.log(`Você tem ${idade} anos, por tanto`)
 if (idade < 16){
-    console.log('Não vota')
-}else if(idade <18 || idade > 65){
-        console.log('Voto opcional');
+    console.log('Não pode beber')
+}else if(idade <=18 || idade > 65){
+        console.log('Você já pode beber, porém só é de maior no Brasil');
 }
     else{
-        console.log('Voto obrigatório')
+        console.log('Parabéns, você já é maior que 21 anos, já pode beber no mundo todo!')
 }
