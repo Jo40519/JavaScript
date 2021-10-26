@@ -4,6 +4,10 @@ body {
     font: normal 15pt Arial
 }
 
+div#msg {
+    color: black;
+}
+
 header {
     color: white;
     text-align: center;
