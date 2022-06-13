@@ -20,3 +20,25 @@ if(hora >= 0 && hora < 12){
     img.src = 'fotonoite.png'
 }
 }
+
+
+
+let name = 'johN'
+function hello(name) {
+    const tratarNomes = name.split(' ').map(nomeAtual => {
+        return nomeAtual[0].toUpperCase() +
+        nomeAtual.toLowerCase().slice(1)
+    })
+
+    for (let retorna of tratarNomes) {
+        if (retorna == '') {
+            return 'Hello, World!'
+        } else {
+            return `Hello, ${retorna}`
+        }
+    }
+
+    return tratarNomes.join('')
+}
+
+console.log(hello('johN'))
