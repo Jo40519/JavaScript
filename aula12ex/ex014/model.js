@@ -42,3 +42,17 @@ function hello(name) {
 }
 
 console.log(hello('johN'))
+
+
+
+function exclamaca(string) {
+    let arr = string.split('')
+    let fil = arr.filter(element => {
+        if (element[-1] == '!') {
+            return element.replace(/!/g, '')
+        }
+    })
+    return fil
+}
+
+console.log(exclamaca('Hi!!, hi!!'))
