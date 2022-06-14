@@ -56,3 +56,9 @@ function exclamaca(string) {
 }
 
 console.log(exclamaca('Hi!!, hi!!'))
+
+
+let array = [1, 2, 3, 10, 5]
+console.log(array.sort((a, b)=> {
+    return a-b
+}))
